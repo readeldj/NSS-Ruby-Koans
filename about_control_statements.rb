@@ -121,6 +121,7 @@ class AboutControlStatements < Neo::Koan
     end
     assert_equal [1, 3, 5, 7, 9], result
   end
+  # still not getting this one for some reason, why are the results odd numbers?????????????????????????????
 
   def test_for_statement
     array = ["fish", "and", "chips"]

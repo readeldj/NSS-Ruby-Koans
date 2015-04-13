@@ -75,7 +75,7 @@ class AboutIteration < Neo::Koan
   end
 
   def test_find_locates_the_first_element_matching_a_criteria
-    array = ["Jim", "Bill", "Clarence", "Doug", "Eli"]
+    array = ["Jim", "Bill", "Clarence", "Doug", "Eli", "Roger"]
 
     assert_equal "Clarence", array.find { |item| item.size > 4 }
   end
@@ -90,7 +90,7 @@ class AboutIteration < Neo::Koan
     # Extra Credit:
     # Describe in your own words what inject does.
     # Found on web:
-    # Describe in your own words what inject does.
+    #
     #
     # The inject method takes a block that will be executed for every element
     # in the object we called the inject method on. So since its an array of 3
