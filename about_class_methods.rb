@@ -130,6 +130,7 @@ class AboutClassMethods < Neo::Koan
   def test_you_can_use_self_instead_of_an_explicit_reference_to_dog
     assert_equal :another_way_to_write_class_methods, Dog.class_method2
   end
+  # most common way to do this !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
   # ------------------------------------------------------------------
 
